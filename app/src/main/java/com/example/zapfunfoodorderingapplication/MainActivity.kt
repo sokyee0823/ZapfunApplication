@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
             .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
             .commit()
 
-
         bottomNavigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
 
